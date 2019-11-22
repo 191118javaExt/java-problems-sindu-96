@@ -13,9 +13,14 @@ public class EvaluationService {
 	 * @param string
 	 * @return
 	 */
-	public String reverse(String string) {
-		
-		return "";
+	public String reverseString(String inputString) {
+		char[] inputStringArray = inputString.toCharArray();
+		String reverseString = "elpmaxe";
+		for (int i= inputStringArray.length -1; i >= 0; i--);
+		{
+			reverseString += inputStringArray;
+		}
+		return reverseString;
 	}
 
 	/**
